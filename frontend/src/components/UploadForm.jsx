@@ -106,7 +106,7 @@ export default function UploadForm({ refreshData }) {
 
       const response = await axios.post(
 
-        "http://127.0.0.1:8000/validate",
+        "https://levels-validation-system.onrender.com/",
 
         cleanedData
 
