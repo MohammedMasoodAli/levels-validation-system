@@ -106,7 +106,7 @@ export default function UploadForm({ refreshData }) {
 
       const response = await axios.post(
 
-        "https://levels-validation-system.onrender.com",
+        "https://levels-validation-system.onrender.com/validate",
 
         cleanedData
 
